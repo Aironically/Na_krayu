@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>На краю</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2280%22>💫</text></svg>">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #111;
+      color: white;
+      font-family: sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .panel {
+      width: 100%;
+      max-width: 800px;
+      padding: 20px;
+      text-align: center;
+    }
+
+    img {
+      width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(255,255,255,0.2);
+    }
+
+    a {
+      color: #bbb;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: white;
+    }
+
+    .note {
+      font-weight: bold;
+      color: #aaa;
+      text-align: center;
+    }
+
+    .bottom-note {
+      margin-bottom: 120px;
+    }
+  </style>
+</head>
+<body onload="scrollToBottom()">
+
+  <div class="note" style="font-size: 24px; margin-top: 40px;">
+    ⬆️ Комикс читается снизу вверх ⬆️
+  </div>
+
+  <div class="panel">
+    <p><strong>Автор: Aironically</strong></p>
+    <p><a href="https://t.me/Aironically" target="_blank">t.me/Aironically</a></p>
+  </div>
+
+  <div class="panel">
+    <img src="comic-long.jpg" alt="Комикс">
+  </div>
+
+  <div class="note bottom-note" style="font-size: 24px;">
+    ⬆️ Комикс читается снизу вверх ⬆️
+  </div>
+
+  <script>
+    function scrollToBottom() {
+      window.scrollTo(0, document.body.scrollHeight);
+    }
+  </script>
+
+</body>
+</html>
